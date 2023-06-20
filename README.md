@@ -27,7 +27,8 @@ Furthermore it is possible to assign the xy-parameter-values to any other Ableto
     * __Rhythm-VAE Device #:__ This is the number of the device inside the device chain of the track. In this case it should be the first device in the device chain starting whith index 0.
     * __custom Params:__ avtivating the custom params mode enables the user to assign the output x-y values (represented in the red 2d-slider) to two parameters of any device inside the Ableton Live Set. E.G. one can control the rate and width of a flanger.  
 6. Train the Model
-    * __Train-model-view:__ Detailed trainig view in a seperate patcher window. 
+    * __Train-model-view:__ Detailed trainig view in a seperate patcher window.
+   ![Screenshot of the training-view](Pictures/Screenshot-DetailedTrainingView.png "Training View")
     * __Clear Dataset + Model:__ In most cases you want to clear the old dataset and model before you start training a new one.
     * __select - predict:__ For training you have to click on select. In this mode you select the current parameters as a possible new datapoint. Later, when the model is ready to go you have to click on predict, so that the model predicts the output based on the incoming data. 
     * __manually - auto:__ This refers to the input parameter and how they react. If you are playing an instrument, with live input or if you want to have an audio-signal to conrtol the input parameters, you have to click on auto. In the manual mode you can adjust the input parameters manually with your mouse/coursor. 
