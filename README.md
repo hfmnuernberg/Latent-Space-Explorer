@@ -13,6 +13,8 @@ Furthermore it is possible to assign the xy-parameter-values to any other Ableto
   
 2. Fluid Corpus Manipulation -> FluCoMa Max Package. You can download it directly from the Max Package Manager.
 
+3. Jasch Objects -> Max Package downloadable from Max Package Manager.
+
 ## Step by step guide
 
 1. Open a new Ableton Live Set
