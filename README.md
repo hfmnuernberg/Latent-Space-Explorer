@@ -1,7 +1,7 @@
 # Latent-Space-Explorer
 Interactive rhythm generation with M4L.RhythmVAE
 
-![Screenshot of the device](Pictures/Screenshot-LSE.png "Latent Space Explorer")
+![Screenshot of the device](Pictures/Screenshot-LSE-v5.png "Latent Space Explorer")
 
 
 ## Description
