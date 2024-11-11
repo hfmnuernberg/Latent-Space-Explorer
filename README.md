@@ -5,7 +5,7 @@ Interactive rhythm generation with M4L.RhythmVAE
 
 
 ## Description
-The Latent Space Explorer is a Max4Live Device that connects to another M4L Device: M4L.RhythmVAE from [Nao Tokui](https://github.com/naotokui "Nao Tokui GitHub"). Latent Space Explorer enables musicians to explore and walk through the latent space of M4L.RhythmVAE by just playing their instruments. A neural network inside Latent Space Controller "listens" to a musician and transforms the musical input to the 2D representation of the latent space. This neural net can be easily trained individually.
+The Latent Space Explorer is a Max4Live Device that connects either to 2 parmaters in your ableton live set or to another M4L Device: The M4L.RhythmVAE from [Nao Tokui](https://github.com/naotokui "Nao Tokui GitHub"). Latent Space Explorer enables musicians to explore and walk through the latent space of M4L.RhythmVAE by just playing their instruments. A neural network inside Latent Space Controller "listens" to a musician and transforms the musical input to the 2D representation of the latent space. This neural net can be easily trained individually.
 Furthermore it is possible to assign the xy-parameter-values to any other Ableton Live Device.
 
 ## Dependencies
@@ -39,7 +39,3 @@ Furthermore it is possible to assign the xy-parameter-values to any other Ableto
     *  __Saving and Loading Model:__ If the model is to your likings, you can save the model as a json file and reload it again.
 7. Don´t forget to change the mode to predict and auto, when you are going to use the model in realtime while you are playing.
 
-
-## Further Steps
-- saving and loading datasets to expand or change existing datasets.
-- More input parameters
