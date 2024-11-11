@@ -8,7 +8,7 @@ Interactive rhythm generation with M4L.RhythmVAE
 This is a simplified version of the original. Ambitus and Note Density Parameters exluded. <br>
 
 
-The Latent Space Explorer is a Max4Live Device that connects to another M4L Device: M4L.RhythmVAE from [Nao Tokui](https://github.com/naotokui "Nao Tokui GitHub"). Latent Space Explorer enables musicians to explore and walk through the latent space of M4L.RhythmVAE by just playing their instruments. A neural network inside Latent Space Controller "listens" to a musician and transforms the musical input to the 2D representation of the latent space. This neural net can be easily trained individually.
+The Latent Space Explorer is a Max4Live Device that connects either to 2 parameters inside the ableton live set or to another M4L Device: M4L.RhythmVAE from [Nao Tokui](https://github.com/naotokui "Nao Tokui GitHub"). Latent Space Explorer enables musicians to explore and walk through the latent space of M4L.RhythmVAE by just playing their instruments. A neural network inside Latent Space Controller "listens" to a musician and transforms the musical input to the 2D representation of the latent space. This neural net can be easily trained individually.
 Furthermore it is possible to assign the xy-parameter-values to any other Ableton Live Device.
 
 ## Dependencies
@@ -23,7 +23,7 @@ Furthermore it is possible to assign the xy-parameter-values to any other Ableto
 1. Open a new Ableton Live Set
 2. Load the [M4L.RhythmVAE Device](##Dependencies "Goto Dependencies") into a MIDI Track and remember the track´s number.
 3. Load a Standard Drum Kit into the same MIDI Track and place it after the M4L.RhythmVAE Device (e.g. Browser->Drums->707 Core Kit)
-4. Load the Latent_Space_Explorer into an Audio-Track (this audio track must be a different one as the MIDI Track containing the M4L.RhythmVAE Device). This Audio-Track has to have    your microphone-Input and to be record enabled for live audio-input or you can load an audio-file and use this as audio-input.  
+4. Load the Latent_Space_Explorer into an Audio-Track (this audio track must be a different one as the MIDI Track containing the M4L.RhythmVAE Device). This Audio-Track has to have your microphone-Input and to be record enabled for live audio-input or you can load an audio-file and use this as audio-input.  
 5. Configure the Latent_Space_Explorer:
     * __Volume:__ If you want to amplify the audio input signal, adjust the volume as you wish.
     * __Transient Threshold:__ To identify transients in the audio input signal and detect onsets of notes, adjust the transient threshold, depending on your input signals’ input gain.
@@ -41,8 +41,3 @@ Furthermore it is possible to assign the xy-parameter-values to any other Ableto
     *  __Train the model:__ As soon as you collected enough in/out pairs you can train the model.
     *  __Saving and Loading Model:__ If the model is to your likings, you can save the model as a json file and reload it again.
 7. Don´t forget to change the mode to predict and auto, when you are going to use the model in realtime while you are playing.
-
-
-## Further Steps
-- saving and loading datasets to expand or change existing datasets.
-- More input parameters
